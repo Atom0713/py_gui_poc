@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "py-gui-poc"
+version = "0.1.0"
+description = "py_gui_poc"
+authors = ["Artem Sliusarenko <sliusarenko.artem@gmail.com>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "~3.11.3"
+PySide6 = "^6.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
